@@ -1,5 +1,13 @@
 .holder {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: calc(33.33% - 10px); /* Adjust width based on the number of items */
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-sizing: border-box;
 }
